@@ -1,0 +1,302 @@
+/* resetting styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* styling for the header */
+
+header {
+  background: darkgreen;
+  padding: 30px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+}  
+
+.number {
+ position: absolute;
+ right: 0;
+ top: 0;
+ color: white;
+} 
+
+ nav a, p{
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+
+nav a {
+  margin: 5px;
+}
+
+nav p {
+  font-family: fantasy;
+}
+
+/* styling to separate the a tags from the 
+p tag */
+
+nav :nth-child(2) {
+ margin-left: 25px;
+}
+main h1 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  font-family: serif;
+}
+main {
+  background-image: url('veggies.jpg');
+  height: 500px;
+  background-size: cover;
+}
+main h4 {text-align: center;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+article {
+  display: flex;
+  justify-content: center;
+}
+article button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 18px;
+  width: 50%;
+}
+section {
+  background: darkgreen;
+}
+section h1 {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-family: serif;
+}
+.section-div {
+  text-align: center;
+  margin: auto;
+}
+.section-show {
+  background: none;
+}
+.img-show {
+     margin: 50px 50px 10px 50px;
+     border: 1px solid white;
+     padding: 10px;
+}
+#text-1 {
+  margin-top: 35px;
+  margin-bottom: -40px;
+  font-family: serif;
+}
+#text-2 {
+  font-family: serif;
+  margin-bottom: -40px;
+  margin-top: 35px;
+}
+#text-3 {
+ margin-bottom: -40px;
+  padding-top: 35px;
+  font-family: serif;
+}
+
+.topnav {
+  background-color: darkgreen;
+  overflow: hidden;
+} 
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left; 
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 4.5vw;
+} 
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: none;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #555;
+  color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin: -12px -5px;
+  }
+  
+    
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -5px; 
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+@media screen and (min-width: 500px){
+.topnav a {
+  font-size: 2em;
+}
+nav {
+  margin-left: 200px;
+}
+#first-a, #second-a, #third-a {
+  border-bottom: none;
+  text-align: center;
+}
+#header-pp {position: absolute;
+  top: 50px;
+  left: 30px;
+  font-size: 2em;
+}
+#home a {
+  position: relative;
+  left: 200px;
+  top: 5px;
+}
+main {
+  background-image: url('bg.jpg');
+  font-size: 30px;
+  height: 820px;
+}
+#main-img {opacity: 1;
+  height: 18em;
+  width: 100%;
+}
+.section-div {font-size: 28px;}
+
+button {
+  font-size: 25px;
+}
+.section-show {display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto;
+}
+
+#menu {
+  font-size: 32px;
+}
+#second {
+  height: 265px;
+  width: 70%;
+  align-self: end;
+}
+#second button {
+  width: 206px;
+}
+#third {
+  height: 267px;
+
+}
+
+.btn {
+width: 200px
+  
+}
+
+.hh3 {
+  font-size: 30px;
+}
+
+.ppp {
+  font-size: 25px;
+}
+
+#article2 {
+  
+padding-bottom: 0;
+margin-bottom: 0;
+}
+}
+
+  }
+  
+
+  
+.first-a {
+  text-align: center;
+  margin-left: 3px;
+  border-bottom: 0.001px solid white; 
+}
+
+#bord {
+  border-bottom: 1px solid white;
+}
+
+.second-a {
+  text-align: center;
+  border-bottom: 0.001px solid white;
+}
+
+.third-a {
+  text-align: center;
+  border-bottom: 0.001px solid white;
+}
+.div-div {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+div section {
+  padding: 20px;
+  text-align: center;
+}
+.m-v-style {
+  border: 1px solid white;
+}
+footer {
+  text-align: center;
+  margin: 5px;
+  line-height: 40px;
+  font-family: serif;
+  font-weight: bold;
+}
+footer a {text-decoration: none;}
+footer div {
+  display: block;
+}
+footer div img {
+  width: 20px;
+  height: 20px;
+}
+.main-img {
+  opacity: 0;
+  
+}
